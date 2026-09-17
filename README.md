@@ -1,5 +1,7 @@
 # Web Dev Assignment 1 — Semester 3
 
+This README.md is created with copilot.
+
 A collection of web development work completed for the Semester 3 assignment. The project combines Python and HTML to demonstrate core web development concepts, application structure, and frontend page design.
 
 ## Languages

@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Booking Confirmation</h2>
+    <p>Your ticket has been booked successfully.</p>
+    <p>Passenger Name: {{ booking_details.passenger_name }}</p>
+    <p>Train Number: {{ booking_details.train_no }}</p>
+    <p>Train Name: {{ booking_details.train_name }}</p>
+    <p>From: {{ booking_details.source }}</p>
+    <p>To: {{ booking_details.destination }}</p>
+    <p>Coach: {{ booking_details.coach }}</p>
+    <p>Berth: {{ booking_details.berth }}</p>
+{% endblock %}
